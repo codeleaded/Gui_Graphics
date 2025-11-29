@@ -1,12 +1,14 @@
 #include "/home/codeleaded/System/Static/Library/WindowEngine1.0.h"
 
 void Setup(AlxWindow* w){
-    Clear(BLACK);
+    
 }
 void Update(AlxWindow* w){
     
     Clear(BLACK);
     
+    //Circle_R_Render(WINDOW_STD_ARGS,(Vec2){ 400.0f,200.0f },(Vec2){ 400.0f,200.0f },BLUE);
+    Circle_R_RenderWire(WINDOW_STD_ARGS,(Vec2){ 400.0f,200.0f },(Vec2){ 400.0f,200.0f },BLUE,1.0f);
 }
 void Delete(AlxWindow* w){
 
